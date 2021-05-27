@@ -13,6 +13,7 @@ input{
     outline: none;
     color: white;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 button{
     position: absolute;
@@ -26,6 +27,7 @@ button{
     border-radius: 10px;
     transition: .5s;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 button:hover{
     padding-left: 50px;
