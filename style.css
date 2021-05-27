@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(to right,blue,skyblue);
+}
+input{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: none;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 15px;
+    outline: none;
+    color: white;
+    text-align: center;
+}
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: .5s;
+    font-size: 15px;
+}
+button:hover{
+    padding-left: 50px;
+    padding-right: 50px;
+    background: white;
+    color: black;
+}
